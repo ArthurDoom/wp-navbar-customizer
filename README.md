@@ -45,6 +45,6 @@ function nav_class( $class = '' ) {
 ## Implementation 
 An example with added class navbar with navbar-inverse or navbar-default used depending on what option selected.
 
-```php
+```html
 <nav <?php nav_class("navbar"); ?>>...</nav>
 ```
