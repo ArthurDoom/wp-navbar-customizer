@@ -32,7 +32,7 @@ This adds a class with an option to mannualy add classes in our themes code. Usi
 
 ```php
 function nav_class( $class = '' ) {
-	$navStyle = get_theme_mod( 'ew_nav_settings' );
+	$navStyle = get_theme_mod( 'my_theme_nav_settings' );
 	if ( $navStyle  == 'dark' ) {
 		echo 'class="' . $class . ' navbar-inverse"';
   }
