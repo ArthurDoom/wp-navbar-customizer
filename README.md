@@ -48,3 +48,13 @@ An example with added class navbar with navbar-inverse or navbar-default used de
 ```html
 <nav <?php nav_class("navbar"); ?>>...</nav>
 ```
+
+## Output
+This will display 
+```html
+<!--when dark selected-->
+<nav class="navbar navbar-inverse">...</nav>
+
+<!--when light selected-->
+<nav class="navbar navbar-default">...</nav>
+```
